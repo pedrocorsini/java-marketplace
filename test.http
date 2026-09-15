@@ -1,0 +1,12 @@
+POST http://localhost:8080/customers
+Accept: application/json
+
+{
+    "firstName": "{{$timestamp}}",
+    "email": "{{$timestamp}}@email.com",
+    "address": {
+        "street": "Rua Oscar Renno",
+        "city": "Itajuba",
+        "state": "Minas Gerais"
+    }
+}
