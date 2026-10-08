@@ -1,4 +1,4 @@
-package com.corsini.dio.marketplace.registration.infrastructure.persistence.event;
+package com.corsini.dio.marketplace.registration.infrastructure.event;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
